@@ -1,4 +1,7 @@
-# Combining Neural Fictitious Self Play with Monte Carlo Tree Search for Trick-Taking Card Games
+# PANES: Policy-guided Asymmetric Nash Equilibrium Search
+
+> This project was previously titled *Combining Neural Fictitious Self Play with Monte Carlo
+> Tree Search for Trick-Taking Card Games*
 
 Reinforcement-learning research codebase for trick-taking card games, combining
 **Neural Fictitious Self Play (NFSP)** with **Monte Carlo Tree Search (MCTS)** in a hybrid
@@ -231,11 +234,9 @@ confidence intervals), training convergence, bidding-behavior evolution, and the
 ablation — are reported in the accompanying manuscript, which is the primary reference for this
 work:
 
-> **Combining Neural Fictitious Self Play with Monte Carlo Tree Search for Trick-Taking Card
-> Games.**
+> **PANES: Policy-guided Asymmetric Nash Equilibrium Search.**
 >
-> Preprint PDF: `paper/Combining Neural Fictitious Self Play with Monte Carlo Tree Search for
-> Trick-Taking Card Games.pdf`
+> Preprint PDF: `paper/paper.pdf`
 
 The pipeline produces everything needed to reproduce and extend those figures:
 `checkpoints/` (models + `training_metrics.csv`), `logs/` (per-game logs), and
