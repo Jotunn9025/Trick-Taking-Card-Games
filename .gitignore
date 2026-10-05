@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[co]
+*.egg-info/
+build/
+dist/
+.venv/
+.uv/
+.pytest_cache/
+
+# Training artifacts
+checkpoints/
+*.pt
+
+# Logs and reports
+logs/
+*.csv
+statistical_summary.txt
+
+# Editor
+.vscode/
+.idea/
